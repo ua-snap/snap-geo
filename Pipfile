@@ -13,6 +13,9 @@ xlrd = "*"
 ipykernel = "*"
 rasterstats = "*"
 matplotlib = "*"
+aiohttp = "*"
+flask = "*"
+h5netcdf = "*"
 
 [dev-packages]
 

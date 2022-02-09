@@ -13,6 +13,7 @@ xlrd = "*"
 ipykernel = "*"
 rasterstats = "*"
 matplotlib = "*"
+jupyter = "*"
 
 [dev-packages]
 

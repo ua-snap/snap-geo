@@ -1,0 +1,19 @@
+name: snap-geo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - cdsapi
+  - netcdf4
+  - xarray
+  - pandas
+  - rasterio
+  - matplotlib
+  - tqdm
+  - pip
+  - jupyterlab
+  - geopandas
+  - wrf-python
+  - scikit-image
+  - pip:
+    - git+https://github.com/ua-snap/downscale.git#egg=downscale

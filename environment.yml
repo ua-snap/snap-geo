@@ -332,6 +332,7 @@ dependencies:
   - nbconvert-core=7.16.4
   - nbconvert-pandoc=7.16.4
   - nbformat=5.10.4
+  - nc-time-axis=1.4.1
   - ncurses=6.5
   - nest-asyncio=1.6.0
   - netcdf-flattener=1.2.0

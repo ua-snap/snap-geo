@@ -1,13 +1,11 @@
 name: snap-geo
 channels:
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
-  - black
   - bokeh
   - cartopy
   - cdsapi
-  - cf-python
   - cf_xarray
   - cfgrib
   - cftime
@@ -44,6 +42,7 @@ dependencies:
   - pandas
   - panel
   - papermill
+  - pip
   - plotly
   - pydap
   - pygeos
@@ -64,9 +63,11 @@ dependencies:
   - tree
   - urllib3
   - wget
-  - wrf-python
   - xarray
   - xarray-spatial
   - xclim
   - xesmf
   - zarr
+  - black
+  - pip:
+    - cf-python<3.16.2

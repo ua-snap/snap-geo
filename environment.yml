@@ -108,6 +108,7 @@ dependencies:
   - expat=2.6.2
   - fasteners=0.17.3
   - fastprogress=1.0.3
+  - filelock=3.16.1
   - findlibs=0.0.5
   - fiona=1.9.4
   - flox=0.9.8
@@ -524,7 +525,7 @@ dependencies:
   - xcb-util-keysyms=0.4.0
   - xcb-util-renderutil=0.3.9
   - xcb-util-wm=0.4.1
-  - xclim=0.51.0
+  - xclim=0.53.2
   - xerces-c=3.2.4
   - xesmf=0.8.7
   - xkeyboard-config=2.42
